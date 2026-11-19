@@ -1,0 +1,19 @@
+{
+  "name": "nginx-load-balancer",
+  "version": "1.0.0",
+  "description": "Reverse proxy and load balancing using NGINX and Node.js",
+  "main": "servers/server1.js",
+  "scripts": {
+    "server1": "node servers/server1.js",
+    "server2": "node servers/server2.js",
+    "server3": "node servers/server3.js"
+  },
+  "keywords": [
+    "nginx",
+    "load-balancing",
+    "reverse-proxy",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT"
+}
